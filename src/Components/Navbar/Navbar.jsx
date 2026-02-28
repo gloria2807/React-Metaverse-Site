@@ -30,8 +30,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = React.useState(false);
   const toggleMenu = () => setShowMenu(!showMenu);
   return (
-  <div className='md:ml-50 relative z-[9999] text-black dark:text-white duration-300'>
-    <div className="container py-2 md:py-0">
+  <div className='px-12 py-2 relative z-[9999] text-black dark:text-white duration-300'>
+    <div className="py-2 md:py-0">
       <div className="flex justify-between items-center">
         <div className='flex items-center gap-3'>
           <img src={Logo} alt='' className='h-16'/>

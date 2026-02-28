@@ -5,11 +5,11 @@ import PlayImg from '../../assets/website/play_store.png';
 const AppStore = () => {
   return (
     <>
-    <div className="container md:ml-30 py-14 sm:min-h-[400px] sm:grid sm:place-items-center">
+    <div className="px-4 py-14 sm:min-h-[400px] sm:grid sm:place-items-center">
         <div className='space-y-6 max-w-xl mx-auto'>
             <h1  data-aos='fade-up'
             className='text-2xl text-center sm:text-4xl font-semibold'>Get Started with our App</h1>
-            <p data-aos='fade-up' data-aos-delay='300'>
+            <p data-aos='fade-up' data-aos-delay='300' className='text-center'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ea.</p>
             <div className='flex flex-wrap justify-center gap-4 items-center'>
                 <a href='#' data-aos='fade-up' data-aos-delay='500'>

@@ -4,11 +4,11 @@ import { BiPlayCircle } from 'react-icons/bi';
 
 const Banner2 = ({togglePlay}) => {
   return (
-    <div className='py-12 sm:py-0 relative'>
-        <div className="container md:ml-30 min-h-[620px] flex items-center">
+    <div className='py-12 relative'>
+        <div className="px-4 min-h-[620px] flex items-center">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8
             place-items-center">
-                <div className='order-2 sm:order-1 lg:pr-20 relative'>
+                <div className='order-2 sm:order-1 relative'>
                     <div className='space-y-5 relative z-10'>
                                     <h1 data-aos='fade-up' data-aos-delay='300'
                                     className='text-4xl font-semibold'>GET READY TO ENJOY VR 

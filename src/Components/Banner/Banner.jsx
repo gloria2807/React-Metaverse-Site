@@ -5,7 +5,7 @@ import { BiPlayCircle } from 'react-icons/bi';
 const Banner = ({togglePlay}) => {
   return (
     <div className='py-12 sm:py-0 relative'>
-        <div className="container md:ml-30 min-h-[620px] flex items-center">
+        <div className="px-4 min-h-[620px] flex items-center">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8
             place-items-center">
                 <div data-aos='fade-up' data-aos-once='false'>

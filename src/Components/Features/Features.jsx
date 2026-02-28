@@ -39,7 +39,7 @@ const FeaturesData = [
 const Features = () => {
   return (
     <>
-    <div className="container md:ml-30 py-14 sm:min-h-[600px]">
+    <div className="px-16 py-14 sm:min-h-[600px]">
         <div>
             <h1 data-aos='fade-up'
             className='text-3xl font-semibold text-center

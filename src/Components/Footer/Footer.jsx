@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <>
     <div data-aos='fade' className="bg-gray-100 mt-14 rounded-t-3xl dark:bg-black">
-        <div className="container md:ml-30">
+        <div className="px-12">
             <div className="grid md:grid-cols-3 py-4">
                 <div className="py-8 px-4">
                     <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>

@@ -5,9 +5,9 @@ import { BiPlayCircle } from 'react-icons/bi';
 const Hero = ({togglePlay}) => {
   return (
     <>
-    <div className="py-12 sm:py-0 dark:bg-black
+    <div className="py-12 sm:px-12 dark:bg-black
     dark:text-white duration-300 overflow-hidden">
-        <div className="md:ml-30 container min-h-[700px
+        <div className="px-4 min-h-[700px
         flex relative">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center relative z-10">
                 <div className='order-2 sm:order-1 space-y-5 lg:pr-20 relative z-30'>
